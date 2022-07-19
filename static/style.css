@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* variables */
 
@@ -19,7 +19,7 @@
 
     /* font family */
 
-    --font-poppins: "Poppins", 'sans-serif';
+    --font-poppins: "Poppins", sans-serif;
 
     /* gradient colors */
 
@@ -271,14 +271,22 @@ ul{
 /* FOR LARGE SCREEN sm(640px) */
 
 @media (min-width:640px) {
-    
+    .container{
+        max-width: 640px;
+    }
+
+    .sm-text-xl{
+        font-size: 3em;
+    }
 }
 
 
 /* FOR LARGE SCREEN md(768px) */
 
 @media (min-width:768px) {
-
+    .container {
+        max-width: 768px;
+    }
 }
 
 
@@ -286,11 +294,50 @@ ul{
 
 @media (min-width:1024px) {
 
+    .container {
+        max-width: 1024px;
+    }
+
+    #nav .toggle-btn > button {
+        display: none;
+    }
+
+    #nav{
+        flex-direction: row !important;
+    }
+
+    .collapse{
+        max-height: initial !important;
+    }
+
+    .collapse ul{
+        flex-direction: row !important;
+    }
+
+    .active{
+        max-height: 100% !important;
+    }
+
+    .lg-cols-3{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
 }
 
 /* FOR LARGE SCREEN xl(1280px) */
 
-@media (min-width:1280px) {}
+@media (min-width:1280px) {
+    .container {
+        max-width: 768px;
+    }
+
+    #nav{
+        background: transparent !important;
+    }
+
+    #nav .flex-initial ul button{
+        display: inline-block !important;
+    }
+}
 
 /* -----------------------------------------END MEDIA QUERY-------------------------- */
 /* ------------------------------------NAVIGATION---------------------------------- */
@@ -340,3 +387,29 @@ ul{
 }
 
 /* -------------------------------------END NAV------------------------------------ */
+
+
+/* ------------------------------------HERO SECTION---------------------------------- */
+
+#site-main .banner-area{
+    width: 100%;
+    position: relative;
+    background: var(--bg-cover) no-repeat;
+    background-position-x: right;
+    z-index: -99;
+}
+
+#site-main .banner-area .banner-title{
+    height: 95vh;
+    padding-top: 16rem;
+}
+
+
+/* -------------------------------------END HERO SECTION------------------------------- */
+
+
+/* ----------------------------------------SERVICES SECTION------------------------------ */
+
+#site-main .agency-area{
+    padding: 5rem 0;
+}
