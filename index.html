@@ -12,6 +12,10 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
         integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+
+    <!-- animate CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -68,17 +72,17 @@
         <section class="banner-area font-poppins">
             <div class="container mx-auto banner-title">
                 <div class="title">
-                    <span class="d-inline btn btn-primary bg-gradient-peach text-red">Automate Transactions</span>
+                    <span class="d-inline btn btn-primary bg-gradient-peach text-red animate__animated animate__fadeInUp">Automate Transactions</span>
                     <div class="py-2 branding text-dark text-lg sm-text-xl font-bold">
-                        <span class="d-block">All In one</span>
-                        <span class="d-block">Sacco Management System &</span>
-                        <span class="d-block">Retail POS Software</span>
+                        <span class="d-block animate__animated animate__fadeInDown animate__faster">All In one</span>
+                        <span class="d-block animate__animated animate__fadeInDown animate__fast">Sacco &</span>
+                        <span class="d-block animate__animated animate__fadeInDown">Retail P.O.S</span>
                     </div>
-                    <div class="py-5">
-                        <p class="text-gray">Automate your buiness today with a fully functional &</p>
+                    <div class="py-5 animate__animated animate__fadeInDown">
+                        <p class="text-gray">Automate your business today with a fully functional &</p>
                         <p class="text-gray">Customizable P.O.S Software. Accuracy Matters.</p>
                     </div>
-                    <div class="py-5">
+                    <div class="py-5 animate__animated animate__fadeInDown">
                         <a href="#" class="btn btn-primary bg-gradient text-white btn-shadow">Request Demo</a>
                     </div>
                 </div>
@@ -317,16 +321,236 @@
 
 
         <!-- ---------------------------------------Recent Work Area------------------------------ -->
-        <!-- ---------------------------------------End Recent work Area -->
+
+        <!-- we use masonry.js to create grid layout -->
+        <section class="container mx-auto py-10 recent-work-area">
+            <div class="title">
+                <span class="d-inline btn btn-primary bg-gradient-peach text-red">Automate Transactions</span>
+                <div class="font-poppins">
+                    <h1 class="text-lg text-dark py-5">
+                        Some recent work <br>
+                        we are really proud of <br>
+                    </h1>
+                </div>
+
+                <div class="images-flex font-poppins">
+                    <div class="flex-item animate__animated animate__fadeInDown">
+                        <img src="./assets/images/blog-5.jpg" alt="" class="w-100">
+                        <h3 class="text-dark">Customization</h3>
+                        <span class="text-gray">Installation</span>
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInDown">
+                        <img src="./assets/images/blog-4.jpg" alt="" class="w-100">
+                        <h3 class="text-dark">Analytics</h3>
+                        <span class="text-gray">Installation</span>
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInDown">
+                        <img src="./assets/images/blog-3.jpg" alt="" class="w-100">
+                        <h3 class="text-dark">Hotel P.O.S</h3>
+                        <span class="text-gray">Installation</span>
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInDown">
+                        <img src="./assets/images/blog-6.jpg" alt="" class="w-100">
+                        <h3 class="text-dark">Hotel P.O.S</h3>
+                        <span class="text-gray">Installation</span>
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInDown">
+                        <img src="./assets/images/blog-7.jpg" alt="" class="w-100">
+                        <h3 class="text-dark">Hotel P.O.S</h3>
+                        <span class="text-gray">Installation</span>
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInDown">
+                        <img src="./assets/images/blog-8.jpg" alt="" class="w-100">
+                        <h3 class="text-dark">Hotel P.O.S</h3>
+                        <span class="text-gray">Installation</span>
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInDown">
+                        <img src="./assets/images/blog-9.jpg" alt="" class="w-100">
+                        <h3 class="text-dark">Hotel P.O.S</h3>
+                        <span class="text-gray">Installation</span>
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInDown">
+                        <img src="./assets/images/blog-10.jpg" alt="" class="w-100">
+                        <h3 class="text-dark">Hotel P.O.S</h3>
+                        <span class="text-gray">Installation</span>
+                    </div>
+
+                    <div class="flex-item animate__animated animate__fadeInDown">
+                        <img src="./assets/images/blog-11.jpg" alt="" class="w-100">
+                        <h3 class="text-dark">Hotel P.O.S</h3>
+                        <span class="text-gray">Installation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--------------------------------Article Section---------------------------->
+
+        <section class="article-area container mx-auto py-10">
+            <div class="area-title text-center font-poppins">
+                <span class="text-red">Our Recent Articles</span>
+                <h1 class="text-lg text-dark">Trending Topics</h1>
+            </div>
+
+            <div class="grid cols-1 lg-cols-3 font-poppins py-10">
+                <div class="card">
+                    <article class="btn-shadow">
+                        <img src="./assets/images/blog-01.jpg" alt="" class="w-100">
+                        <div class="px-5 py-5">
+                            <span class="text-gray">Posted 2 hours Ago</span>
+                            <a href="#">
+                                <h2 class="text-md">How to Install a P.O.S system.</h2>
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, recusandae!
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="card">
+                    <article class="btn-shadow">
+                        <img src="./assets/images/blog-02.jpg" alt="" class="w-100">
+                        <div class="px-5 py-5">
+                            <span class="text-gray">Posted 2 hours Ago</span>
+                            <a href="#">
+                                <h2 class="text-md">How to Install a P.O.S system.</h2>
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, recusandae!
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="card">
+                    <article class="btn-shadow">
+                        <img src="./assets/images/blog-03.jpg" alt="" class="w-100">
+                        <div class="px-5 py-5">
+                            <span class="text-gray">Posted 2 hours Ago</span>
+                            <a href="#">
+                                <h2 class="text-md">How to Install a P.O.S system.</h2>
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, recusandae!
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ---------------------------------Call Action Section----------------------------- -->
+
+        <section class="ready-area container mx-auto py-5">
+            <div class="flex flex-wrap font-poppins btn-shadow py-10 sm-px-10">
+                <div class="w-50">
+                    <h1 class="text-lg sm-text-xl text-dark">Ready to Automate your Profits?</h1>
+                    <p class="text-gray">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quo corporis. Iure, optio?    
+                    </p>
+                </div>
+
+                <div class="cols py-5">
+                    <a href="#" class="btn-shadow text-white btn btn-primary d-block text-center bg-gradient">
+                        <span class="text-uppercase text-sm">Get Started</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <!-- ---------------------------------------End Recent work Area---------------------------->
 
     </main>
+
+    <!-- ----------------------------------------------Footer Section----------------------- -->
+
+
+    <footer id="footer">
+        <section class="container mx-auto py-10">
+            <div class="grid md-cols-2 lg-cols-4 font-poppins">
+                <div class="text-gray text-center md-text-left">
+                    <span>
+                        2345 Britam Road
+                        Perihill, Eldoret 123
+                    </span>
+                    <span class="d-block">(254)671 239 7013</span>
+                    <span class="text-red">info@company.com</span>
+                </div>
+
+                <div class="text-gray text-center md-text-left">
+                    <h3 class="text-dark">About</h3>
+                    <div class="py-5">
+                        <a href="#" class="d-block">
+                            <span class="text-gray">About Us</span>
+                        </a>
+                        <a href="#" class="d-block"><span class="text-gray">Blog</span></a>
+                        <a href="#" class="d-block"><span class="text-gray">Our Work</span></a>
+                        <a href="#" class="d-block"><span class="text-gray">Services</span></a>
+                        <a href="#" class="d-block"><span class="text-gray">Contact</span></a>
+                        <a href="#" class="d-block">
+                            <span class="text-gray">Home</span>
+                        </a>
+                    </div>  
+                </div>
+
+                <div class="text-gray text-center md-text-left">
+                    <h3 class="text-dark">Services</h3>
+                    <div class="py-5">
+                        <a href="#" class="d-block">
+                            <span class="text-gray">Installation</span>
+                        </a>
+                        <a href="#" class="d-block"><span class="text-gray">Security Scan</span></a>
+                        <a href="#" class="d-block"><span class="text-gray">Customization</span></a>
+                        <a href="#" class="d-block"><span class="text-gray">Updates</span></a>
+                        <a href="#" class="d-block"><span class="text-gray">Payment Intergration</span></a>
+                        <a href="#" class="d-block"><span class="text-gray">Demo</span></a>
+                        <a href="#" class="d-block"><span class="text-gray">Device Analysis</span></a>
+                    </div>
+                </div>
+
+                <div class="text-gray text-center md-text-left">
+                    <h3 class="text-dark">Newsletter</h3>
+                    <p>
+                        Subscribe to our Newsletter <br>
+                        to get the latest news & updates
+                    </p>
+
+                    <div class="flex py-5">
+                        <input type="text" class="subscribe-text" placeholder="Enter email">
+                        <button class="brn btn-go">Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 
 
     
 
     
     <!-- script -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
+        integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+
     <script src="./static/main.js"></script>
+
+    <!-- masonry -->
+
+
 </body>
 
 </html>
